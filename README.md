@@ -1,23 +1,23 @@
 ## Python_Projects
-Hello there!
+Hello there!\
 This repository holds my programming projects done during the period of stanCode SC101 course.
 
 Watch my DEMO VIDEOS!
 
 ##Project Source Codes:
-[Hangman Game]()
-python semantics & syntax
-[Weather Master]()
-python semantics & syntax
-[MyPhotoshop]()
-image processing
-[Pedestrian Removing Application]()
-image processing
-[Breakout Game]()
-animation & game designing
-[Name Popularity Searching System]()
-data structure
-[Anagram]()
-recursive functions
-[Boggle Game Solver]()
-recursive functions
+* [Hangman Game]()
+  * python semantics & syntax
+* [Weather Master]()
+  * python semantics & syntax
+* [MyPhotoshop]()
+  * image processing
+* [Pedestrian Removing Application]()
+  * image processing
+* [Breakout Game]()
+  * animation & game designing
+* [Name Popularity Searching System]()
+  * data structure
+* [Anagram]()
+  * recursive functions
+* [Boggle Game Solver]()
+  * recursive functions
