@@ -4,7 +4,8 @@ Adapted from Eric Roberts's Breakout by
 Sonja Johnson-Yu, Kylie Jue, Nick Bowman,
 and Jerry Liao.
 
-YOUR DESCRIPTION HERE
+This program plays "break out" game in which players
+move the paddle to make the ball bounce and break all bricks.
 """
 
 from campy.gui.events.timer import pause
@@ -23,11 +24,6 @@ def main():
 
         # The switch is controlled by the mouse when clicking.
         if graphics.is_moving:
-
-            # No need, actually
-            # Assign vx, vy to get the velocity of the ball.
-            # vx = graphics.get_dx()
-            # vy = graphics.get_dy()
 
             # Move and bounce the ball
             graphics.ball.move(graphics.dx, graphics.get_dy())
