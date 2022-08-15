@@ -27,7 +27,7 @@ def main():
 		minimum = temp
 		cold_day = 0
 		total = temp
-		i = 1						# Set a variable to count the inputs
+		i = 1					# Set a variable to count the inputs
 		if temp < 16:
 			cold_day += 1
 		while True:
