@@ -4,7 +4,10 @@ Adapted from Eric Roberts's Breakout by
 Sonja Johnson-Yu, Kylie Jue, Nick Bowman, 
 and Jerry Liao.
 
-YOUR DESCRIPTION HERE
+This program makes a game called "break out".
+It sets bricks, the ball, the velocity of ball,
+the paddle, and all the items and conditions
+which will be used in the game.
 """
 from campy.graphics.gwindow import GWindow
 from campy.graphics.gobjects import GOval, GRect, GLabel
@@ -160,17 +163,3 @@ class BreakoutGraphics:
                 # Check the ball hits an object.
                 if maybe_object:
                     return maybe_object
-
-                    # Move the animation part to the front
-                    # # The ball hits a paddle and bounces.
-                    # if maybe_object is self.paddle:
-                    #     if self.__dy > 0:
-                    #         self.__dy *= -1
-                    #     return
-                    #
-                    # # The ball hits a brick and removes it.
-                    # elif maybe_object is not None:
-                    #     self.window.remove(maybe_object)
-                    #     self.bricks_left -= 1
-                    #     self.__dy *= -1
-                    #     return
