@@ -28,10 +28,8 @@ def main():
 
 		start = time.time()
 
-		####################
 		words_set = find_words(letter_lst)
 		print(f'There are {len(words_set)} words in total.')
-		####################
 
 		end = time.time()
 		print('----------------------------------')
