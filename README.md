@@ -2,7 +2,6 @@
 Hello there!\
 This repository holds my programming projects done during the period of stanCode SC101 course.
 
-Watch my DEMO VIDEOS!
 
 ## Project Source Codes:
 * [Hangman Game](https://github.com/kkaitch/Python_Projects/blob/main/Python%20Projects/Hangman/hangman.py)
